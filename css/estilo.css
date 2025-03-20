@@ -70,12 +70,16 @@
     padding: 8px;
     margin: auto;
   }
+  nav ul li a:hover {
+    background-color: #94b9ff;
+    border-radius: 10px;
+    color: #fff;
+  }
   
-  /* DROPDOWN */
+  /* DROPDOWN 
   .dropdown {
     position: relative;
   }
-  
   .dropdown-menu {
     display: none;
     position: absolute;
@@ -87,8 +91,7 @@
     list-style: none;
     width: auto;
     height: auto;
-    background-color:#f7dc6f;
-    
+    background-color:#f7dc6f; 
   }
   .dropdown-menu li {
     padding: 5px 10px;
@@ -103,23 +106,20 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-  
   .dropdown:hover .dropdown-menu {
     display: block;
   }
-  
   nav ul li a:hover {
     background-color: #94b9ff;
     border-radius: 10px;
     color: #fff;
   }
-  
   .dropdown-menu li a:hover {
     border-radius: 20px;
     background-color: #94b9ff;
     color: #fff;
   }
-  
+  */
   /* LOGO */
   .logo {
     text-align: center;
@@ -180,12 +180,38 @@
     color: #375e6d;
     text-align: left;
   }
-  .lista-visto-estudante {
-    padding: 5px;
+  .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+    background: #fff;
+    padding: 3px;
+    margin-top: 5px;
+    border: 2px solid #E2E6C2;
+    background-color: #E2E6C2;
+    width: 270px;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+  }
+ 
+
+
+  .visto-trabalho{
+    text-align: center;
+    line-height: 35px;
     margin: auto;
+    font-weight: bold;
+  }
+  .ul-procura-de-trabalho {
     text-align: left;
   }
-  
+  .visto-trabalho a {
+    text-decoration: none;
+    color: #f7dc6f;
+  }
+  .visto-trabalho a:hover{
+    background-color: #94b9ff;
+    border-radius: 10px;
+    color: #375e6d;
+  }
   /* RODAPÉ */
   footer {
     width: 100%;
